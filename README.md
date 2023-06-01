@@ -3,7 +3,7 @@ This is my twist on the basic drawing game where I try to add as much of my pers
 
 ## Game Demo
 
-To see a live demo of the game, you can visit the [Rock Paper Scissors Game Demo](https://jakaambrus.github.io/PlaySketch_Portable/) page.
+To see a live demo of the game, you can visit the [PlaySketch Portable Game Demo](https://jakaambrus.github.io/PlaySketch_Portable/) page.
 
 ## Technologies used:
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
