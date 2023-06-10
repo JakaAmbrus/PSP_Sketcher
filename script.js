@@ -211,7 +211,7 @@ muteBtn.addEventListener('click', function() {
       if(window.matchMedia('(max-width: 1100px)').matches || window.matchMedia('(min-height: 2500px)').matches){
         rotate.style.display = 'flex';
         setTimeout(() => {
-          rotate.style.opacity = '0.7';
+          rotate.style.opacity = '1';
         }, 100)
         setTimeout(() => {
           rotate.style.display = 'none';
