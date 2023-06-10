@@ -7,6 +7,7 @@ const gameScreen = document.getElementById('game-screen');
 const startTxt = document.getElementById('press-to-start');
 const optionsContainer = document.getElementById('options-container');
 const techContainer = document.getElementById('tech-container');
+const rotate = document.getElementById('rotate');
 //buttons
 const optionsBtn = document.getElementById("options-btn");
 const techBtn = document.getElementById("tech-btn");
@@ -207,6 +208,16 @@ muteBtn.addEventListener('click', function() {
   fullscreenBtn.addEventListener('click', function() {
     if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement && !document.msFullscreenElement) {
       // Enter fullscreen
+      if(window.matchMedia('(max-width: 1100px)').matches || window.matchMedia('(min-height: 2500px)').matches){
+        rotate.style.display = 'flex';
+        setTimeout(() => {
+          rotate.style.opacity = '0.7';
+        }, 100)
+        setTimeout(() => {
+          rotate.style.display = 'none';
+          rotate.style.opacity = '0';
+        }, 2000)
+      }
       if (entireGame.requestFullscreen) {
         entireGame.requestFullscreen();
       } else if (entireGame.mozRequestFullScreen) {

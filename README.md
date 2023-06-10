@@ -9,4 +9,4 @@ To see a live demo of the game, you can visit the [Rock Paper Scissors Game Demo
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
 ## Preview
-![Preview](./img/Preview.PNG.png)
+![Preview](./img/Preview.PNG)
