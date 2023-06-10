@@ -9,8 +9,7 @@ To see a live demo of the game, you can visit the [PlaySketch Portable Game Demo
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
 ## Preview
-<<<<<<< HEAD
+
 ![Preview](./img/Preview.PNG)
-=======
-![Preview](./img/Preview.PNG)
->>>>>>> 1ad95ab1b6573997adb265cdfc91e24d037088da
+
+
