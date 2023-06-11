@@ -227,6 +227,7 @@ h1{
   #audio-container{
     display: none;
   }
+  /* the rotate phone icon popup */
   #rotate{
     display: none;
     position: absolute;
